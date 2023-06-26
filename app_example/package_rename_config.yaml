@@ -1,0 +1,35 @@
+# to run: dart run package_rename
+
+#TODO: (package rename) uncomment what to use
+
+package_rename_config:
+  # android:
+  #   app_name: App Example
+  #   package_name: dev.efemazieri.appexample
+  #   override_old_package: com.example.example
+  #   lang: kotlin
+
+  # ios:
+  #   app_name: App Example
+  #   bundle_name: App Example
+  #   package_name: dev.efemazieri.appexample
+
+  # linux:
+  #   app_name: App Example
+  #   package_name: dev.efemazieri.appexample
+  #   exe_name: app-example
+
+  # macos:
+  #   app_name: App Example
+  #   package_name: dev.efemazieri.appexample
+  #   copyright_notice: efemazieri.dev | copyright 2023
+
+  # web:
+  #   app_name: App Example
+  #   description: App Example Bricks
+  
+  # windows:
+  #   app_name: App Example
+  #   organization: efemazieri.dev
+  #   copyright_notice: efemazieri.dev | copyright 2023
+  #   exe_name: app-example

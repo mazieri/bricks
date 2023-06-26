@@ -1,0 +1,17 @@
+name: mod
+description: My module structure.
+
+# The following defines the brick repository url.
+# Uncomment and update the following line before publishing the brick.
+repository: https://github.com/mazieri/bricks/mod/
+
+version: 1.0.0
+
+environment:
+  mason: ">=0.1.0-dev.49 <0.1.0"
+
+vars:
+  module:
+    type: string
+    description: Module name
+    prompt: Name of Module ?

@@ -1,0 +1,35 @@
+# to run: dart run package_rename
+
+#TODO: (package rename) uncomment what to use
+
+package_rename_config:
+  # android:
+  #   app_name: {{nameApp.titleCase()}}
+  #   package_name: {{namePackage}}
+  #   override_old_package: com.example.example
+  #   lang: kotlin
+
+  # ios:
+  #   app_name: {{nameApp.titleCase()}}
+  #   bundle_name: {{nameApp.titleCase()}}
+  #   package_name: {{namePackage}}
+
+  # linux:
+  #   app_name: {{nameApp.titleCase()}}
+  #   package_name: {{namePackage}}
+  #   exe_name: {{nameApp.paramCase()}}
+
+  # macos:
+  #   app_name: {{nameApp.titleCase()}}
+  #   package_name: {{namePackage}}
+  #   copyright_notice: {{copyNot}}
+
+  # web:
+  #   app_name: {{nameApp.titleCase()}}
+  #   description: {{descApp.titleCase()}}
+  
+  # windows:
+  #   app_name: {{nameApp.titleCase()}}
+  #   organization: {{org}}
+  #   copyright_notice: {{copyNot}}
+  #   exe_name: {{nameApp.paramCase()}}
