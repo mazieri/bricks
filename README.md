@@ -5,6 +5,10 @@
   - [official doc](https://docs.brickhub.dev)
   - [official website](brickhub.dev)
 
+## NOTE
+
+>until i got approved on brickhub i was only able to use my bricks locally (i.e. clone/download them)
+
 ## Explain
 
 - App Example
