@@ -3,7 +3,7 @@ description: My complete structure.
 
 # The following defines the brick repository url.
 # Uncomment and update the following line before publishing the brick.
-repository: https://github.com/mazieri/bricks/struct_cplt/
+repository: https://github.com/mazieri/bricks/tree/master/bricks/struct_cplt
 
 version: 1.0.0
 
