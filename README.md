@@ -9,6 +9,11 @@
 
 >until i got approved on brickhub i was only able to use my bricks locally (i.e. clone/download them)
 
+## YouTube
+
+- [struct_cplt](https://youtu.be/NQQTHMPYlzw)
+- [mod](https://youtu.be/WhHJ7IBOnGM)
+
 ## Explain
 
 - App Example
