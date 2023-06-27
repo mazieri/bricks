@@ -5,9 +5,10 @@
   - [official doc](https://docs.brickhub.dev)
   - [official website](brickhub.dev)
 
-## NOTE
+## Install/Use
 
->until i got approved on brickhub i was only able to use my bricks locally (i.e. clone/download them)
+- `mason add struct_cplt` | [struct_cplt](https://brickhub.dev/bricks/struct_cplt/1.0.0)
+- `mason add mod` | [mod](https://brickhub.dev/bricks/mod/1.0.0)
 
 ## YouTube
 
