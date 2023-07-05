@@ -3,7 +3,7 @@
 - Why/how to use ?
   - [step-to-step in my blog (pt-br)](https://blog.efemazieri.dev/automacao-com-mason-brick)
   - [official doc](https://docs.brickhub.dev)
-  - [official website](brickhub.dev)
+  - [official website](https://brickhub.dev)
 
 ## Install/Use
 
