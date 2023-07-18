@@ -24,9 +24,10 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return LinearGradientBackground(
+      //TODO: remove this widget if you don't want "linear gradient background"
       widget: Center(
         child: Lottie.asset(
-          "", //TODO: add lottie assets
+          "", //TODO: add lottie assets, don't forget to declare in pubspec (or add to remoteConfig)
           fit: BoxFit.fitHeight,
           repeat: false,
           // frameRate: FrameRate(15), //TODO: if you need to lock the frames, just uncomment and replace

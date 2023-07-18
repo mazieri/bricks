@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
-//TODO: feel free to customize the error page
-
 class ErrorPage extends StatelessWidget {
   const ErrorPage({Key? key}) : super(key: key);
 
@@ -15,11 +13,13 @@ class ErrorPage extends StatelessWidget {
       backgroundColor: const Color.fromARGB(255, 0, 0, 0),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "oops, there was an error",
+              "Ops, have an Error",
               textAlign: TextAlign.center,
               style: TextStyle(
+                color: Colors.white,
                 fontSize: height > width ? width / 10 : height / 10,
                 fontWeight: FontWeight.bold,
               ),
@@ -28,9 +28,9 @@ class ErrorPage extends StatelessWidget {
               color: Colors.transparent,
             ),
             ElevatedButton(
-              onPressed: () => Modular.to.navigate("/home/"),
+              onPressed: () => Modular.to.navigate("/"),
               child: const Center(
-                child: Text("Return to Home Page"),
+                child: Text("App Restart"),
               ),
             ),
           ],
