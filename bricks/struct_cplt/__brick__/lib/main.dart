@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -8,11 +9,17 @@ import 'src/src_exports.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await Future.wait(
-    [
-      Firebase.initializeApp(),
-    ],
-  );
+  kIsWeb ==
+          true //TODO: remove this part of code, if you are not going to use Web App
+      ? await Firebase.initializeApp(
+          options: const FirebaseOptions(
+            apiKey: apiKey,
+            appId: appId,
+            messagingSenderId: messagingSenderId,
+            projectId: projectId,
+          ),
+        )
+      : await Firebase.initializeApp();
 
   await RemoteConfig().start();
 
