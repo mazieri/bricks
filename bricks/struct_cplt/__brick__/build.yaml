@@ -1,0 +1,9 @@
+# TODO: make the "build_runner" fast
+
+targets:
+  $default:
+    builders:
+      mobx_codegen|mobx_generator:
+        generate_for:
+          - "lib/**_store.dart"
+          # - "lib/..." # TODO: add more extensions if you use another package that use build_runner
